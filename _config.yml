@@ -1,7 +1,7 @@
 name: Jeremy Koch
-description: "Just another hacker, changing the world, one line of code at a time."
+description: "Engineer at IBM. Designing and building beautiful products. Coding in Swift. Sexying up the enterprise."
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
-bio: "Software engineer with 20 years of expertise designing and building full-stack solutions. Currently focused on  + IBM, Swift, and bringing exciting new apps to the enterprise."
+bio: "Software engineer focused on designing and building beautiful products. Working at  + IBM, coding in Swift, and sexying up the enterprise."
 markdown: redcarpet
 highlighter: pygments
 logo: false
@@ -10,6 +10,7 @@ baseurl: /
 domain_name: 'http://jerkoch.com'
 google_analytics: 'UA-XXXXXXXX-X'
 
-# Details for the RSS feed generator
-url:            'http://jerkoch.com'
-author:         'Jeremy Koch'
+url: 'http://jerkoch.com'
+author: 'Jeremy Koch'
+author_location: 'Davis, California'
+author_link: http://twitter.com/jerkoch

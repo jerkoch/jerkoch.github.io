@@ -1,0 +1,28 @@
+---
+layout: default
+post_class: author-template
+---
+
+
+<header class="main-header author-head" style="background-image: url({{ page.cover }})">
+    <nav class="main-nav overlay clearfix">
+        <a class="back-button icon-arrow-left" href="{{ site.baseurl }}">Home</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}rss.xml">Subscribe</a>
+    </nav>
+    <div class="vertical">
+        <div class="main-header-content inner">
+        </div>
+    </div>
+</header>
+
+<section class="author-profile inner">
+    <figure class="author-image">
+            <div class="img" style="background-image: url(/assets/images/profile.jpg)"><span class="hidden">John O'Nolan's Picture</span></div>
+    </figure>    
+    <h1 class="author-title">{{ site.name }}</h1>
+    <p class="author-bio">{{ site.bio }} </p>
+    <div class="author-meta">
+        <span class="author-location icon-location">{{ site.author_location }}</span>
+        <span class="author-link icon-link"><a href="{{ site.author_link }}">{{ site.author_link }}</a></span>
+    </div>        
+</section>

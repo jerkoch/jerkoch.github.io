@@ -1,6 +1,5 @@
 ---
 layout: default
-disqus: false
 archive: false
 post_class: post-template
 ---
@@ -69,9 +68,13 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <h4><a href="/about.html">{{ site.author }}</a></h4>
                     <!-- Author Bio -->
                     <p>  {{ site.bio }} </p>
+                    <div class="author-meta">
+                        <span class="author-location icon-location">{{ site.author_location }}</span>
+                        <span class="author-link icon-link"><a href="{{ site.author_link }}">{{ site.author_link }}</a></span>
+                    </div>                    
                 </section>                
             {% endif %}
 
