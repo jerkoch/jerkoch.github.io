@@ -18,9 +18,6 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-```bash
-$ howdyd
-```
 
 ```swift
 let foo = Int(1)
