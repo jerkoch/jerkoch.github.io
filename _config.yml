@@ -1,0 +1,15 @@
+name: Jeremy Koch
+description: "Just another hacker, changing the world, one line of code at a time."
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+markdown: redcarpet
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://jerkoch.com'
+google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'http://jerkoch.com'
+author:         'Jeremy Koch'
