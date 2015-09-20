@@ -1,7 +1,7 @@
 name: Jeremy Koch
 description: "Engineer at IBM. Designs and builds beautiful products. Codes in Swift. Sexying up the enterprise."
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
-bio: "Engineer at IBM. Designs and builds beautiful products. Codes in Swift. Sexying up the enterprise.  + IBM."
+bio: "Engineer at IBM. Designs and builds beautiful products. Codes in Swift. Sexying up the enterprise."
 markdown: redcarpet
 highlighter: pygments
 logo: false
