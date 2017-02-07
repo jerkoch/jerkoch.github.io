@@ -2,15 +2,19 @@ name: Jeremy Koch
 description: "Engineer at IBM. Designs and builds beautiful products. Codes in Swift. Sexying up the enterprise."
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 bio: "Engineer at IBM. Designs and builds beautiful products. Codes in Swift. Sexying up the enterprise."
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://jerkoch.com'
+future: true
+domain_name: 'https://jerkoch.com'
 google_analytics: 'UA-52909708-2'
 
-url: 'http://jerkoch.com'
+url: 'https://jerkoch.com'
 author: 'Jeremy Koch'
 author_location: 'Davis, California'
-author_link: http://twitter.com/jerkoch
+author_link: https://twitter.com/jerkoch
+
+gems: [jekyll-paginate]
+
