@@ -11,9 +11,12 @@ domain_name: 'https://jerkoch.com'
 google_analytics: 'UA-52909708-2'
 
 url: 'https://jerkoch.com'
-author: 'Jeremy Koch'
+author: jerkoch
 author_location: 'Davis, California'
 author_link: https://twitter.com/jerkoch
+
+twitter:
+    username: jerkoch
 
 gems: [jekyll-paginate, jekyll-seo-tag]
 

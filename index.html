@@ -44,7 +44,7 @@ cover: /assets/images/background.jpg
         <footer class="post-meta">
             {% if site.author %}
                 <img class="author-thumb" src="/assets/images/profile.jpg" alt="Author's profile picture" nopin="nopin" />
-                <a href="/about.html">{{ site.author }}</a>
+                <a href="/about.html">{{ site.name }}</a>
             {% endif %}
             {% if post.categories.size > 0 %} 
                 {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
