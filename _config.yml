@@ -18,5 +18,11 @@ author_link: https://twitter.com/jerkoch
 twitter:
     username: jerkoch
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/profile.jpg
+
 gems: [jekyll-paginate, jekyll-seo-tag]
 
