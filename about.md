@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About me 
+title: About | Jeremy Koch 
 cover: /assets/images/background.jpg
 hide_social: true
 ---
