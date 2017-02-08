@@ -16,5 +16,5 @@ author: 'Jeremy Koch'
 author_location: 'Davis, California'
 author_link: https://twitter.com/jerkoch
 
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-seo-tag]
 
