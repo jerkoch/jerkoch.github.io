@@ -14,7 +14,10 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
     <title>{{ page.title }}</title>
     {% seo title=false %}
-</head>
+    {% if page.image %}
+      <meta name="twitter:image" content="{{ page.image }}" /> 
+    {% endif %}
+    </head>
 <body class="{% if layout.post_class %}{{layout.post_class}}{% else %}home-template{% endif %}">
 
     {{ content }}
