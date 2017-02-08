@@ -22,7 +22,8 @@ post_class: author-template
     <h1 class="author-title">{{ site.name }}</h1>
     <p class="author-bio">{{ site.bio }} </p>
     <div class="author-meta">
-        <span class="author-location icon-location">{{ site.author_location }}</span>
-        <span class="author-link icon-link"><a href="{{ site.author_link }}">{{ site.author_link }}</a></span>
+        {% include social.html %}
     </div>        
+    <div>
+    <div>
 </section>

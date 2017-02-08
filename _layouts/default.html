@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" type="text/css" href="/assets/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
     <!-- Customisation  -->
     <link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
@@ -23,8 +24,13 @@
         <a href="{{ site.baseurl }}">{{ site.name }}</a> &copy; 
               {{date | date:"YYYY"}} &bull; All rights reserved.
       </section>
+
       <section class="poweredby">Made with <a href="https://jekyllrb.com">Jekyll</a>
+
       </section>
+      {% if page.hide_social != true %}
+         {% include social.html %}
+      {% endif %}
     </footer>
     
     <script type="text/javascript" src="/assets/js/jquery-1.11.1.min.js"></script>

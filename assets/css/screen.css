@@ -1163,7 +1163,7 @@ body:not(.post-template) .post-title {
 }
 /* Location, website, and link */
 .author-profile .author-meta {
-    margin: 2rem 0;
+    margin: 3rem 0;
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     font-size: 1.7rem;
@@ -1313,7 +1313,7 @@ body:not(.post-template) .post-title {
 
 .poweredby {
     display: block;
-    width: 45%;
+    width: 100px;
     float: right;
     text-align: right;
 }
@@ -1321,6 +1321,7 @@ body:not(.post-template) .post-title {
 .copyright {
     display: block;
     width: 45%;
+    max-width: 20%;    
     float: left;
 }
 
