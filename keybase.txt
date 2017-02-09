@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jerkoch
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jerkoch.com
+  * I am jerkoch (https://keybase.io/jerkoch) on keybase.
+  * I have a public key with fingerprint 86DC C907 EB91 E30F BAB6  C45B 8D0F 5B84 5A27 3ABB
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01013fe378a8084be3bbc94a48cdb69665a7b4f4253f3896692d7e033f1d525667530a",
+            "fingerprint": "86dcc907eb91e30fbab6c45b8d0f5b845a273abb",
+            "host": "keybase.io",
+            "key_id": "8d0f5b845a273abb",
+            "kid": "01013fe378a8084be3bbc94a48cdb69665a7b4f4253f3896692d7e033f1d525667530a",
+            "uid": "87a02f16b3452a39ebfee038fc510719",
+            "username": "jerkoch"
+        },
+        "service": {
+            "hostname": "jerkoch.com",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1486640673,
+    "expire_in": 157680000,
+    "prev": "ea105b7da2f1b0b4d685ee0658e9f549f012cceb7392a348fe45ccc777661d20",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJbSBRRGN6t7SZsLJFP0oMDQaXomZkzZ2a26CHJIIMuXrALrXPOnHHH
+1Z11ZnY17AIFFZER2haVYKlZgSVCCFmESlESpJJQmCQUEUQkhWEXys50eQh67Dyc
+w/+f7/v+//v57wbn+jL8HR+rvpmB/gz/w4F00lfeUpbdwGFL38OFG7gY/fnQap06
+biRm6lyYAzzgRYOKsqIpQIGYihgTFWpQITpGKkKSJmNoQEESDVFhsSroMgWiaPC6
+JEgIyZIINC6XM8x4JbUTthl3mayCdEJUIFOs8lQEBtYwIlDCig4MdkNJE2RRw5gR
+o5bjMVhzWHNonmmxHAsiP9v7B/4/9538VUfWgGDwCItQEjRRpdigDK0YROKBzKse
+0KF2XKuhDF1F7ZhFoty+XI4lUyah3lw9I38D8ohVw5gJ23ItYlWzj6jrJpywR3T3
+JDxkHcWR3xoRbMZ1NkXGSFHbMa04F+YZkrimJ8pDBSEIkCzmcrQ+Ydo0YnoISUYK
+YMerQ1NMkmo8kLCsa8wQBhjqSJGYGSQpVDUkqBqAFwihWBZVZhUqBoUSIUSWZYR4
+XQCc56o2bnFhyNrUKpmkY1bGNTdpU27fYP+ugM+f4Zs/b463Xb6MRaE/O3fg0UJf
+8+A9bkF1odbTYY1PPt3bP7MyKeBoYKy39tZuWHTkYsDJuXF4ZGSsegbcpwNvO9tK
+VoWOjJ4b/nyoojF1pmWi8fGid5cLviT6Pg0k7Juz/tJg3fdvsYK64v0Vr65cD+5o
+L9vWWPb82tYhmJz82iSkIsuvrro0enoifDIzfWxJ6uzSZ/XB4Xy4ek35drRys/4y
+m+yd3tJ8Z+xJemPR1GXQ82FnaZFVv6K77eBkUE0fndk0dd4ab3nTVRsS3anXcvGy
+td2bAqHjm2+MlOS/T80pr1B6a0Zn1aWLC3sOvsjqa29/52YNbVC6L3Seml5/m2Rm
+5jxojfnXodZo04nyrtmBHzHiQdY=
+=8r+X
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jerkoch
+
+==================================================================
