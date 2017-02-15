@@ -2,7 +2,7 @@
 layout: post
 title:  "Swiper, No Swiping..."
 description: An adventure creating a swipeable UITableViewCell based on the stock Mail.app, implemented in Swift.
-image: /assets/images/swipecellkit.png
+image: /assets/images/swipecellkit-hero.png
 date:   2017-02-07
 disqus: true
 ---
