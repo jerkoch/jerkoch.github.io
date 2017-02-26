@@ -23,7 +23,7 @@ One thing you need to know about me - I'm a stickler for the details. Visually, 
 
 It was then that I took a step back and accepted the fact that I was about to roll my own swipeable `UITableViewCell`. And of course, I would write it in Swift. I spent a long time analyzing the iOS 10 Mail.app swiping behavior - slow motion screen recordings and all.  I also looked at the News.app, which has similar swipeable cell behavior, although it uses a `UICollectionView`. Either way, they are both very similar, with some slight differences in transition animations and the highlighting style when tapping action buttons.
 
-I wanted to write something that would not only provide a wonderful user experience, but also provide an equally as wonderful developer experience. And the same principles applied: clarity, consistency, and delight. *Let's put the discoverability debate aside for a moment :)*
+I wanted to write something that would not only provide a great user experience, but also provide an equally as great developer experience. And the same principles applied: clarity, consistency, and delight. *Let's put the discoverability debate aside for a moment :)*
 
 In order to support both the Mail.app and News.app cell swiping styles, my three main objectives were: 
 
@@ -51,7 +51,7 @@ After adding some final polish by integrating Apple's new Haptic Feedback API, i
 
 #### The Final Product
 
-Introducing [SwipceCellKit](https://github.com/jerkoch/SwipeCellKit). A swipeable UITableViewCell based on the stock Mail.app, implemented in Swift.
+Introducing [SwipeCellKit](https://github.com/jerkoch/SwipeCellKit). A swipeable UITableViewCell based on the stock Mail.app, implemented in Swift.
 
 ![](https://raw.githubusercontent.com/jerkoch/SwipeCellKit/develop/Screenshots/Hero.gif)
 
@@ -76,8 +76,8 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 Then adopt the `SwipeTableViewCellDelegate` protocol:
 
 ````swift
-func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction] {
-    guard orientation == .right else { return }
+func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> [SwipeAction]? {
+    guard orientation == .right else { return nil }
 
     let deleteAction = SwipeAction(style: .destructive, title: "Delete") { action, indexPath in
         // handle action by updating model with deletion
@@ -103,9 +103,9 @@ func tableView(_ tableView: UITableView, editActionsOptionsForRowAt indexPath: I
 
 #### Conclusion
 
-So there you have it!  A few years too late, but hopefully still valuable to some people out there.
+So there you have it!  A few years too late, but hopefully *SwipeCellKit* is still valuable to some people out there.
 
-All source code is available on [GitHub](https://github.com/jerkoch/SwipeCellKit). It includes a [Demo](https://github.com/jerkoch/SwipeCellKit/tree/develop/Example) app which shamelessly copies the Mail.app *Inbox* interface. 
+All source code for *SwipeCellKit* is available on [GitHub](https://github.com/jerkoch/SwipeCellKit). It includes a [Demo](https://github.com/jerkoch/SwipeCellKit/tree/develop/Example) app which shamelessly copies the Mail.app *Inbox* interface. 
 
 You can read the full [documentation](http://www.jerkoch.com/SwipeCellKit) which was generated with [Jazzy](https://github.com/realm/jazzy).
 
