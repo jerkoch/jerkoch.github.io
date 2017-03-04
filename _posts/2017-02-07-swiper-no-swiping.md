@@ -1,13 +1,11 @@
 ---
 layout: post
-title:  "Swiper, No Swiping..."
+title:  "Swiper, No Swiping Right on a UITableViewCell"
 description: An adventure creating a swipeable UITableViewCell based on the stock Mail.app, implemented in Swift.
 image: /assets/images/swipecellkit-hero.png
 date:   2017-02-07
 disqus: true
 ---
-
-...right on a `UITableViewCell`.
 
 Yes, I know I'm late to the cell swiping party. You know what they say: necessity is the mother of invention.
 
