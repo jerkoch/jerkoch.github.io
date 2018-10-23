@@ -10,6 +10,8 @@ baseurl: /
 domain_name: 'http://jerkoch.com'
 google_analytics: 'UA-XXXXXXXX-X'
 
+include: [".well-known"]
+
 # Details for the RSS feed generator
 url:            'http://jerkoch.com'
 author:         'Jeremy Koch'
