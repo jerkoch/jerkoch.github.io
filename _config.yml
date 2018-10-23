@@ -19,6 +19,8 @@ google_analytics: 'UA-52909708-2'
 url: 'https://jerkoch.com'
 baseurl: /
 
+include: [".well-known"]
+
 author: jerkoch
 author_location: 'Davis, California'
 author_link: https://twitter.com/jerkoch
