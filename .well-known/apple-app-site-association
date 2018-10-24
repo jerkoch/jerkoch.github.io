@@ -1,5 +1,11 @@
 {
-   "webcredentials": {
-       "apps": ["UM4A92U23C.com.jerkoch.Spears"]
-    }
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "UM4A92U23C.com.jerkoch.Spears",
+                "paths": [ "*" ]
+            }
+        ]
+    }    
 }
